@@ -6,3 +6,5 @@ public readonly record struct ErrorResponse(string type, string error);
 
 public readonly record struct AuthResponse(string userId, string jwt, DateTime expires, string refreshToken);
 
+public readonly record struct UserInfo(string id, string firstName, string nickname, string lastName, string email);
+
