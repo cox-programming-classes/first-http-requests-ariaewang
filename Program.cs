@@ -24,5 +24,5 @@ foreach (var day in cycleDays)
 
 var schedule = await scheduleService.GetAcademicSchedule();
 
-foreach(var /*thing*/)
-    Console.WriteLine(/*thing*/);
+//foreach(var )
+    //Console.WriteLine();
